@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_EMFMAOAREemjS6qFNHA9yw" name="CSV_to_be_cleaned_Inventory" dataPackage="_EMFMAeAREemjS6qFNHA9yw" Server="Localhost 127.0.0.1" FilePath="E:/0_TAMU - MS MIS - Mays Business School/Semester 3/Advanced Database Management/Team Project/to be cleaned/export_dataframe.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;^&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_EMFMAeAREemjS6qFNHA9yw" name="default" dataManager="_EMFMAOAREemjS6qFNHA9yw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_EMFMAuAREemjS6qFNHA9yw" id="_4ZzQwOAQEemjS6qFNHA9yw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EMFMA-AREemjS6qFNHA9yw" label="BibNum" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EMFMBOAREemjS6qFNHA9yw" label="Title" length="225" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EMFMBeAREemjS6qFNHA9yw" label="Author" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EMFMBuAREemjS6qFNHA9yw" label="ISBN" length="79" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EMFMB-AREemjS6qFNHA9yw" label="PublicationYear" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EMFMCOAREemjS6qFNHA9yw" label="Publisher" length="66" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EMFMCeAREemjS6qFNHA9yw" label="Subjects" length="291" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EMFMCuAREemjS6qFNHA9yw" label="ItemType" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EMFMC-AREemjS6qFNHA9yw" label="ItemCollection" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EMFMDOAREemjS6qFNHA9yw" label="FloatingItem" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EMFMDeAREemjS6qFNHA9yw" label="ItemLocation" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EMFMDuAREemjS6qFNHA9yw" label="ReportDate" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EMFMD-AREemjS6qFNHA9yw" label="ItemCount" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

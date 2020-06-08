@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Group 1-1: ISTM 622-601</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <center>
+            <h1>Seattle Library - ADM</h1>
+            <p>WebApp: Group 1-1 (Advanced Data Management ISTM 622-601)</p>
+        </center>
+    </div>
+
+		<form action="/" method="POST">
+
+            <div class="col-md-4 card bg-info text-white">
+                <center>
+                    <h2 class="card-title">Most checked out books</h2>
+                    <div class="card-body">
+                        <p>These are the most checked out books. <br>How many books do you wish to see?</p>
+                    </div>
+
+                    <br>
+
+                    <p>Number of required books: <br><input type = 'text' name = "booksnumber"</p>
+
+                    <br><br>
+
+                    <input type="submit" class="btn btn-success" value="Submit">
+                </center>
+            </div>
+
+            <div class="col-md-4 card bg-success text-white">
+               <center>
+                   <h2 class="card-title">No Recent Checkout</h2>
+                   <div class="card-body">
+                       <p>Books that have not been checked out in the past 3 years.</p>
+                   </div>
+
+                   <br>
+
+			        <input type="submit" class="btn btn-success" value="Submit">
+               </center>
+
+                <br>
+
+            </div>
+
+            <div class="col-md-1"></div>
+
+                <div class="col-md-4 card bg-warning text-white">
+                    <center>
+                        <h2 class="card-title">Trending Authors</h2>
+                        <div class="card-body">
+                            <p>This is a list of authors whose books were checked out most in the previous months.<br>
+                            Input required number of required records below.
+                            </p>
+                        </div>
+
+                        <br>
+			            <p>Number of required records: <input type = 'text' name = "authorsnumber"</p>
+
+                        <br><br>
+
+                        <input type="submit" class="btn btn-success" value="Submit">
+                    </center>
+                    <br>
+                </div>
+        </form>
+</div>
+</body>
+</html>
+
+
